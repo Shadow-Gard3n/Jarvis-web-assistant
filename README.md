@@ -8,6 +8,13 @@ Jarvis Web Assistant is a Python-based voice-controlled assistant that allows us
 - **Text-to-Speech Feedback**: The assistant provides spoken feedback to let you know what it is doing, whether it’s opening a website or asking for more commands.
 - **Repeat and Exit Commands**: After executing a command, you can either repeat with a new command or say `exit` to close the assistant.
 
+## Code Structure
+- `speak()`: This function is responsible for converting text messages into speech. It uses the `pyttsx3` library.
+- `database()`: Allows the user to input shortcut names and their corresponding links.
+- `takecommand()`: Captures the user's voice input and returns it as a string.
+- `main()`: The main loop where voice commands are recognized, processed, and the respective websites are opened.
+
+
 ## Required libraries
 - `pip install pyttsx3`
 - `pip install SpeechRecognition`
