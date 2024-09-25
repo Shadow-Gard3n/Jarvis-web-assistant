@@ -27,5 +27,7 @@ Jarvis Web Assistant is a Python-based voice-controlled assistant that allows us
 - `User said: Open youtube`
 - `Opening youtube`
 
+## Try to use 'Microphone' for better experience.
+
 
 
