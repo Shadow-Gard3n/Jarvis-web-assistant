@@ -9,7 +9,16 @@ Jarvis Web Assistant is a Python-based voice-controlled assistant that allows us
 - **Repeat and Exit Commands**: After executing a command, you can either repeat with a new command or say `exit` to close the assistant.
 
 ## Required libraries
-- pip install pyttsx3
-- pip install SpeechRecognition
+- `pip install pyttsx3`
+- `pip install SpeechRecognition`
+## Example
+- `Type the shortcut name you want for link: youtube`
+- `Type the link for above shortcut: https://www.youtube.com`
+- `Type '1' for more input and '2' if you are done: 2`
+- `Listening...`
+- `Recognizing...`
+- `User said: Open youtube`
+- `Opening youtube`
+
 
 
