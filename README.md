@@ -11,7 +11,7 @@ Jarvis Web Assistant is a Python-based voice-controlled assistant that allows us
 ## Required libraries
 - `pip install pyttsx3`
 - `pip install SpeechRecognition`
-## Example
+## Example for code
 - `Type the shortcut name you want for link: youtube`
 - `Type the link for above shortcut: https://www.youtube.com`
 - `Type '1' for more input and '2' if you are done: 2`
