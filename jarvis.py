@@ -36,7 +36,7 @@ def takecommand():
                 speak(f"User said {query}")
                 query = query.lower()
             except sr.UnknownValueError:
-                speak("Sorry, I did not get that. Please try again")
+                speak("Voice too low. Please try again")
                 query = None
             except sr.RequestError:
                 speak("Internet Problem. Please try again") 
@@ -64,5 +64,5 @@ def main():
         else:
             speak('Wrong input so taking new command')
             continue
-
+        
 main()
